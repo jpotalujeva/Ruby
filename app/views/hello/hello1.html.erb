@@ -1,0 +1,8 @@
+
+<p>Hello</p> 
+<%= params[:name] %>
+<%= params[:sname] %>
+
+<%= form_tag("/list", :method=>"get") do %>
+<%= submit_tag("List", :class=>"btn") %></br>
+<% end %>
