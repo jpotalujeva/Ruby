@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   get '/' => 'album#index'
   get '/hello' => 'hello#hello1'
   get '/signup' => 'users#new'
@@ -9,6 +10,11 @@ Rails.application.routes.draw do
   get '/contact' => 'contacts#write'
   resources :mails
   get '/email' => 'mail#send'
+=======
+  get '/' => 'hello#hello'
+  get '/hello' => 'hello#hello1'
+  get '/list' => 'list#list'
+>>>>>>> 1b5fedf43e2d92183f310f2080be3254d711635b
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

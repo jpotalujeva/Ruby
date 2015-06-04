@@ -3,6 +3,7 @@ require File.expand_path('../application', __FILE__)
 
 # Initialize the Rails application.
 Rails.application.initialize!
+<<<<<<< HEAD
 
 # ActionMailer::Base.delivery_method = :smtp
 
@@ -15,3 +16,5 @@ Rails.application.initialize!
 # }
 
 # ActionMailer::Base.default_content_type = "text/html"
+=======
+>>>>>>> 1b5fedf43e2d92183f310f2080be3254d711635b
