@@ -11,13 +11,11 @@
   <ul> 
     <li><%= current_user.email %></li> 
     <li><%= link_to "Log out", logout_path, method: "delete" %></li> 
-    <li><%= link_to "Contact us", contact_path%></li>
   </ul> 
 <% else %> 
   <ul> 
     <li><%= link_to "Login", 'login' %></a></li> 
     <li><%= link_to "Signup", 'signup' %></a></li>
-     <li><%= link_to "Contact us", contact_path%></li> 
   </ul> 
 <% end %>
 <%= yield %>
