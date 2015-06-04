@@ -2,25 +2,11 @@
 <html>
 <head>
   <title>Demo</title>
-<<<<<<< HEAD
-=======
-  <link rel="stylesheet" type="text/css" href="/hello.css" />
->>>>>>> 1b5fedf43e2d92183f310f2080be3254d711635b
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<<<<<<< HEAD
 	<h1>BLA BLA BLA</h1>
 </body>
 </html>
-=======
-	<%= form_tag("/hello", :method=>"get") do %>
-  <p>Enter your name</p><%= text_field_tag(@user[:name]) %></br>
-  <p>Enter your surname</p><%= text_field_tag(@user[:sname]) %></br>
-  </br><%= submit_tag("Submit", :class=>"btn") %></br>
-<% end %>
-</body>
-<% end %>
->>>>>>> 1b5fedf43e2d92183f310f2080be3254d711635b
