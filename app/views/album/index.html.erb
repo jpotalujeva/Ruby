@@ -1,7 +1,22 @@
 <!DOCTYPE html>
 <html>
-	<title></title>
-	<body>
-		<h1>ALBUM</h1>
-	</body>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <div class="login">
+      <div class="container">
+        <div class="form">
+          <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzRVk9zZcQpZxh5j4Jt3OoVvKn2ObmchCUUWTNZWumYO5nbHHU7Q" />
+          <% if current_user %> 
+          <p class="hover">Hello, <%= current_user.email %></p> 
+      <% else %> 
+          <p class="hover"><%= link_to "Login", 'login' %></a></p> 
+          <p class="hover">To login to the site, just follow this: <%= link_to "Log in", 'login' %></a></p>
+      <% end %>
+          <p class="hover">Thanks for joining and have a great day!</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

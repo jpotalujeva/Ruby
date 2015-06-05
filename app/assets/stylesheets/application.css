@@ -1,5 +1,5 @@
 html, body {
-  background: #fff;
+  background-color: #6EA6A1;
   font-family: Arial, sans-serif;
   font-weight: bold;
   margin: 0;
@@ -7,11 +7,24 @@ html, body {
   text-transform: lowercase;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  color: #666666;
+}
+p:hover {
+  text-transform: uppercase;
+}
+
+
+
 .container {
   padding: 0;
   width: 100%;
 }
-
 
 
 /* FORM PAGES */
@@ -31,7 +44,7 @@ input[type=password] {
   color: #666666;
   width: 100%;
   border: 1px solid #E6E6E6;
-  border-radius: 0px; 
+  border-radius: 10px; 
   height: 60px;
   margin: 6px auto;
   text-indent: 10px;
@@ -41,7 +54,7 @@ input[type=password] {
   color: #FFFFFF;
   font-size: 18px;
   text-transform: uppercase;
-  background: #c91717;
+  background: #2F7CA3;
   padding: 10px 20px;
   border: 0;
   margin-top: 6px;
@@ -62,30 +75,3 @@ input[type=password] {
     margin: 0;
     width: 100%;
   }
-
-  .pull-right ul {
-    margin: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-before: 0;
-    -webkit-padding-start: 0;
-  }
-
-  .pull-right ul li {
-    display: block;
-    float: left;
-    margin: 0;
-    padding: 20px 0;
-    text-align: center;
-    width: 50%;
-  }
-
-  .pull-right ul li a {
-    display: block;
-    width: 100%;
-  }
-
-  .img-container {
-    height: 200px;
-  }
-}
-
