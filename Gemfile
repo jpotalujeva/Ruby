@@ -28,6 +28,8 @@ gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '3.1.1.rc1', :require => 'bcrypt'
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
 
 # Use unicorn as the app server
 # gem 'unicorn'

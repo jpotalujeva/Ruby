@@ -1,7 +1,54 @@
 <!DOCTYPE html>
 <html>
-	<title></title>
+	<title>Demo</title>
 	<body>
-		<h1>ALBUM</h1>
+		<div class="container">
+				<div class="nav nav-tabs">
+					<li><a class="brand"><%= current_user.email %></a></li>
+					<li><%= link_to "Log out", logout_path, method: "delete" %></li> 
+					<li><a href="#sec1">Section 1</a></li>
+					<li><a href="#sec2">Section 2</a></li>
+					<li><a href="#sec3">Section 3</a></li>
+					<li><a href="#sec4">Section 4</a></li>
+				</div>
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				  <div class="carousel-inner">
+				    <div class="item active">
+				      <img src="http://www.blirk.net/wallpapers/1366x768/strawberry-in-milk-wallpaper-1.jpg"/>
+				      <div class="carousel-caption">
+				          <h3>...</h3>
+				      </div>
+				    </div>
+				    <div class="item">
+				     <img src="http://www.blirk.net/wallpapers/1366x768/strawberry-in-milk-wallpaper-1.jpg"/>
+				      <div class="carousel-caption">
+				          <h3>...</h3>
+				      </div>
+				    </div>
+				    <div class="item">
+				      <img src="http://www.blirk.net/wallpapers/1366x768/strawberry-in-milk-wallpaper-1.jpg"/>
+				      <div class="carousel-caption">
+				          <h3>...</h3>
+				      </div>
+				    </div>
+				  </div>
+						 
+				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				  </a>
+				</div>
+			</div>
+			<div class="pager">
+			  <ul>
+			    <li class="active"><a href="#">1</a></li>
+			    <li class="active"><a href="#">2</a></li>
+			    <li class="active"><a href="#">3</a></li>
+			    <li class="active"><a href="#">4</a></li>
+			  </ul>
+			</div>
+		</div>
 	</body>
 </html>

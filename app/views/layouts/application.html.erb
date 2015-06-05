@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Demo</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-<% if current_user %> 
-  <ul> 
-    <li><%= current_user.email %></li> 
-    <li><%= link_to "Log out", logout_path, method: "delete" %></li> 
-    <li><%= link_to "Contact us", contact_path%></li>
-  </ul> 
-<% else %> 
-  <ul> 
-    <li><%= link_to "Login", 'login' %></a></li> 
-    <li><%= link_to "Signup", 'signup' %></a></li>
-     <li><%= link_to "Contact us", contact_path%></li> 
-  </ul> 
-<% end %>
-<%= yield %>
-
-</body>
+  <head>
+    <title>Demo</title>
+      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+      <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+      <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div class="container">
+      <% if current_user %> 
+        <ul class="nav navbar-nav"></ul> 
+      <% else %> 
+       <div class="alert">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Warning!</strong> You are not logged in.
+      </div>
+        <ul class="nav navbar-nav"> 
+          <li><%= link_to "Login", 'login' %></a></li>
+          <li><%= link_to "Signup", 'signup' %></a></li>
+        </ul> 
+      <% end %>
+      <%= yield %>
+    </div>
+  </body>
 </html>
