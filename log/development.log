@@ -23012,3 +23012,2445 @@ Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-05 17:
 
 
 Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 192.168.221.11 at 2015-06-05 17:08:02 +0300
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+Processing by AlbumController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = ? LIMIT 1  [["id", 1]]
+  Rendered album/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 136ms (Views: 131.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 192.168.221.11 at 2015-06-05 17:17:13 +0300
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 10:18:11 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (2.9ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by AlbumController#index as HTML
+  [1m[35mUser Load (3.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = ? LIMIT 1  [["id", 1]]
+  Rendered album/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 1355ms (Views: 736.8ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:13 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:14 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 10:18:14 +0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 192.168.221.11 at 2015-06-08 10:18:14 +0300
+
+
+Started DELETE "/logout" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY="}
+Redirected to http://192.168.221.10:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+Processing by AlbumController#index as HTML
+Redirected to http://192.168.221.10:3000/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (159.9ms)
+Completed 200 OK in 289ms (Views: 288.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:37 +0300
+
+
+Started POST "/login" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY=", "session"=>{"email"=>"as1@inbox.lv", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`email` = 'as1@inbox.lv' LIMIT 1[0m
+Redirected to http://192.168.221.10:3000/
+Completed 302 Found in 115ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+Processing by AlbumController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = ? LIMIT 1  [["id", 2]]
+  Rendered album/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 123ms (Views: 119.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 192.168.221.11 at 2015-06-08 10:24:57 +0300
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+Processing by AlbumController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 2]]
+  Rendered album/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 132ms (Views: 125.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 192.168.221.11 at 2015-06-08 10:29:47 +0300
+
+
+Started DELETE "/logout" for 192.168.221.11 at 2015-06-08 10:44:38 +0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY="}
+Redirected to http://192.168.221.10:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 10:44:38 +0300
+Processing by AlbumController#index as HTML
+Redirected to http://192.168.221.10:3000/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 192.168.221.11 at 2015-06-08 10:44:38 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (112.0ms)
+Completed 200 OK in 239ms (Views: 238.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:39 +0300
+
+
+Started GET "/signup" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (126.4ms)
+Completed 200 OK in 272ms (Views: 266.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 10:44:40 +0300
+
+
+Started POST "/users" for 192.168.221.11 at 2015-06-08 10:45:15 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY=", "user"=>{"first_name"=>"lapo4ka", "last_name"=>"tapo4ka", "email"=>"zenka45@inbox.lv", "password"=>"[FILTERED]"}, "commit"=>"Create an account"}
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `users` (`created_at`, `email`, `first_name`, `last_name`, `password_digest`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-06-08 07:45:15"], ["email", "zenka45@inbox.lv"], ["first_name", "lapo4ka"], ["last_name", "tapo4ka"], ["password_digest", "$2a$10$e5yso9Uqd8yyGd0afQcfq.esx7FvpSJn.DzzST5ArvAQWzpZJyliW"], ["updated_at", "2015-06-08 07:45:15"]]
+  [1m[35m (631.2ms)[0m  COMMIT
+Redirected to http://192.168.221.10:3000/
+
+UserMailer#welcome_user: processed outbound mail in 1.2ms
+Completed 500 Internal Server Error in 737ms
+
+NameError (undefined local variable or method `curreny_user' for #<UserMailer:0x000000051a39e8>):
+  app/mailers/user_mailer.rb:7:in `welcome_user'
+  app/controllers/users_controller.rb:11:in `create'
+
+
+  Rendered /home/jevgenija/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /home/jevgenija/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/jevgenija/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/jevgenija/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.6ms)
+
+
+Started POST "/users" for 192.168.221.11 at 2015-06-08 10:45:46 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY=", "user"=>{"first_name"=>"lapo4ka", "last_name"=>"tapo4ka", "email"=>"zenka45@inbox.lv", "password"=>"[FILTERED]"}, "commit"=>"Create an account"}
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `users` (`created_at`, `email`, `first_name`, `last_name`, `password_digest`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-06-08 07:45:47"], ["email", "zenka45@inbox.lv"], ["first_name", "lapo4ka"], ["last_name", "tapo4ka"], ["password_digest", "$2a$10$p09mV4b6hdKC7xLvVrdan.c4fSbeXpvttxDP6AxZApveEvf4Z90Qq"], ["updated_at", "2015-06-08 07:45:47"]]
+  [1m[36m (2.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://192.168.221.10:3000/
+
+UserMailer#welcome_user: processed outbound mail in 0.5ms
+Completed 500 Internal Server Error in 105ms
+
+NameError (undefined local variable or method `current_user' for #<UserMailer:0x00000003f67298>):
+  app/mailers/user_mailer.rb:7:in `welcome_user'
+  app/controllers/users_controller.rb:11:in `create'
+
+
+  Rendered /home/jevgenija/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/jevgenija/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/jevgenija/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/jevgenija/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.8ms)
+
+
+Started POST "/users" for 192.168.221.11 at 2015-06-08 10:46:06 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY=", "user"=>{"first_name"=>"lapo4ka", "last_name"=>"tapo4ka", "email"=>"zenka45@inbox.lv", "password"=>"[FILTERED]"}, "commit"=>"Create an account"}
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `users` (`created_at`, `email`, `first_name`, `last_name`, `password_digest`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-06-08 07:46:06"], ["email", "zenka45@inbox.lv"], ["first_name", "lapo4ka"], ["last_name", "tapo4ka"], ["password_digest", "$2a$10$73lFagOylDIHWDrbu2RDcukNHEC9ymiISLTZW8.tmOa7QPJlNqoda"], ["updated_at", "2015-06-08 07:46:06"]]
+  [1m[35m (13.3ms)[0m  COMMIT
+Redirected to http://192.168.221.10:3000/
+
+UserMailer#welcome_user: processed outbound mail in 26.4ms
+Completed 500 Internal Server Error in 142ms
+
+ActionView::MissingTemplate (Missing template user_mailer/welcome_user with "mailer". Searched in:
+  * "user_mailer"
+):
+  app/mailers/user_mailer.rb:7:in `welcome_user'
+  app/controllers/users_controller.rb:11:in `create'
+
+
+  Rendered /home/jevgenija/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (0.5ms)
+
+
+Started POST "/users" for 192.168.221.11 at 2015-06-08 10:46:39 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY=", "user"=>{"first_name"=>"lapo4ka", "last_name"=>"tapo4ka", "email"=>"zenka45@inbox.lv", "password"=>"[FILTERED]"}, "commit"=>"Create an account"}
+  [1m[36mSQL (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `users` (`created_at`, `email`, `first_name`, `last_name`, `password_digest`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-06-08 07:46:39"], ["email", "zenka45@inbox.lv"], ["first_name", "lapo4ka"], ["last_name", "tapo4ka"], ["password_digest", "$2a$10$1a18T8sbS9QF1vqBmOeXB.YJN1/KZOMRm0n5MWsf12rWygCxBguny"], ["updated_at", "2015-06-08 07:46:39"]]
+  [1m[36m (2.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://192.168.221.10:3000/
+
+UserMailer#welcome_user: processed outbound mail in 6.5ms
+Completed 500 Internal Server Error in 101ms
+
+ActionView::MissingTemplate (Missing template user_mailer/welcome_user with "mailer". Searched in:
+  * "user_mailer"
+):
+  app/mailers/user_mailer.rb:7:in `welcome_user'
+  app/controllers/users_controller.rb:11:in `create'
+
+
+  Rendered /home/jevgenija/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (0.5ms)
+
+
+Started POST "/users" for 192.168.221.11 at 2015-06-08 10:46:42 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY=", "user"=>{"first_name"=>"lapo4ka", "last_name"=>"tapo4ka", "email"=>"zenka45@inbox.lv", "password"=>"[FILTERED]"}, "commit"=>"Create an account"}
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `users` (`created_at`, `email`, `first_name`, `last_name`, `password_digest`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-06-08 07:46:42"], ["email", "zenka45@inbox.lv"], ["first_name", "lapo4ka"], ["last_name", "tapo4ka"], ["password_digest", "$2a$10$OzEN6VI8VaMQK6n7CN6Z7uldbIxVt9N7cBcAi42GcOYPbea2bDdAO"], ["updated_at", "2015-06-08 07:46:42"]]
+  [1m[35m (375.4ms)[0m  COMMIT
+Redirected to http://192.168.221.10:3000/
+
+UserMailer#welcome_user: processed outbound mail in 12.4ms
+Completed 500 Internal Server Error in 489ms
+
+ActionView::MissingTemplate (Missing template user_mailer/welcome_user with "mailer". Searched in:
+  * "user_mailer"
+):
+  app/mailers/user_mailer.rb:7:in `welcome_user'
+  app/controllers/users_controller.rb:11:in `create'
+
+
+  Rendered /home/jevgenija/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+Processing by AlbumController#index as HTML
+Redirected to http://192.168.221.10:3000/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (129.0ms)
+Completed 200 OK in 247ms (Views: 246.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 10:46:58 +0300
+
+
+Started GET "/signup" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (117.9ms)
+Completed 200 OK in 237ms (Views: 235.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 10:47:00 +0300
+
+
+Started POST "/users" for 192.168.221.11 at 2015-06-08 10:47:18 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY=", "user"=>{"first_name"=>"lapo4ka ", "last_name"=>"tapo4ka", "email"=>"zenka45@inbox.lv", "password"=>"[FILTERED]"}, "commit"=>"Create an account"}
+  [1m[36mSQL (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `users` (`created_at`, `email`, `first_name`, `last_name`, `password_digest`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-06-08 07:47:18"], ["email", "zenka45@inbox.lv"], ["first_name", "lapo4ka "], ["last_name", "tapo4ka"], ["password_digest", "$2a$10$hHO.P4D.g8vRUb/uzeHBCe6DswVGTJOXCtakeylh9tC8n/OEXAlqO"], ["updated_at", "2015-06-08 07:47:18"]]
+  [1m[36m (13.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://192.168.221.10:3000/
+
+UserMailer#welcome_user: processed outbound mail in 5.8ms
+Completed 500 Internal Server Error in 113ms
+
+ActionView::MissingTemplate (Missing template user_mailer/welcome_user with "mailer". Searched in:
+  * "user_mailer"
+):
+  app/mailers/user_mailer.rb:7:in `welcome_user'
+  app/controllers/users_controller.rb:11:in `create'
+
+
+  Rendered /home/jevgenija/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (0.5ms)
+
+
+Started POST "/users" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY=", "user"=>{"first_name"=>"lapo4ka ", "last_name"=>"tapo4ka", "email"=>"zenka45@inbox.lv", "password"=>"[FILTERED]"}, "commit"=>"Create an account"}
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`created_at`, `email`, `first_name`, `last_name`, `password_digest`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-06-08 07:49:15"], ["email", "zenka45@inbox.lv"], ["first_name", "lapo4ka "], ["last_name", "tapo4ka"], ["password_digest", "$2a$10$9AUCfmmxdFlwu5w9OA8LYudR/GkjaAK/qKM5I3l8.EZ9WB0cQXQEm"], ["updated_at", "2015-06-08 07:49:15"]]
+  [1m[35m (12.1ms)[0m  COMMIT
+Redirected to http://192.168.221.10:3000/
+  Rendered user_mailer/welcome_user.html.erb (0.9ms)
+  Rendered user_mailer/welcome_user.text.erb (0.4ms)
+
+UserMailer#welcome_user: processed outbound mail in 15.2ms
+
+Sent mail to zenka45@inbox.lv (14.5ms)
+Date: Mon, 08 Jun 2015 10:49:15 +0300
+From: jpotalujeva@gmail.com
+To: zenka45@inbox.lv
+Message-ID: <557548fb31796_5bcc4e2e465463@ubuntu.mail>
+Subject: test welcome email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_557548fb2ea99_5bcc4e2e4653a3";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_557548fb2ea99_5bcc4e2e4653a3
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+#<User:0x007f5b3d2bd0a0>
+----==_mimepart_557548fb2ea99_5bcc4e2e4653a3
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+	<head></head>
+		<body>
+		<h1>Hello!</h1>
+		<p>Welcome</p>
+	</body>
+</html>
+----==_mimepart_557548fb2ea99_5bcc4e2e4653a3--
+
+Completed 302 Found in 149ms (ActiveRecord: 12.8ms)
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+Processing by AlbumController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 13]]
+  Rendered album/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 124ms (Views: 118.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 192.168.221.11 at 2015-06-08 10:49:15 +0300
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+Processing by AlbumController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = ? LIMIT 1  [["id", 13]]
+  Rendered album/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 130ms (Views: 125.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 192.168.221.11 at 2015-06-08 10:54:20 +0300
+
+
+Started DELETE "/logout" for 192.168.221.11 at 2015-06-08 11:09:11 +0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY="}
+Redirected to http://192.168.221.10:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 11:09:11 +0300
+Processing by AlbumController#index as HTML
+Redirected to http://192.168.221.10:3000/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 192.168.221.11 at 2015-06-08 11:09:11 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (121.7ms)
+Completed 200 OK in 242ms (Views: 241.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:12 +0300
+
+
+Started GET "/signup" for 192.168.221.11 at 2015-06-08 11:09:13 +0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (133.5ms)
+Completed 200 OK in 261ms (Views: 258.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:14 +0300
+
+
+Started POST "/users" for 192.168.221.11 at 2015-06-08 11:09:47 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY=", "user"=>{"first_name"=>"Agate", "last_name"=>"Vilkele", "email"=>"zenka45@inbox.lv", "password"=>"[FILTERED]"}, "commit"=>"Create an account"}
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `users` (`created_at`, `email`, `first_name`, `last_name`, `password_digest`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-06-08 08:09:47"], ["email", "zenka45@inbox.lv"], ["first_name", "Agate"], ["last_name", "Vilkele"], ["password_digest", "$2a$10$Yev9Bi7IcPyVIOzH9pORjueVd6g49tMSWk7ajomoB5QvBqEye6RWy"], ["updated_at", "2015-06-08 08:09:47"]]
+  [1m[36m (527.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://192.168.221.10:3000/
+  Rendered user_mailer/welcome_user.html.erb (0.1ms)
+  Rendered user_mailer/welcome_user.text.erb (0.1ms)
+
+UserMailer#welcome_user: processed outbound mail in 29.1ms
+
+Sent mail to zenka45@inbox.lv (22.7ms)
+Date: Mon, 08 Jun 2015 11:09:48 +0300
+From: jpotalujeva@gmail.com
+To: zenka45@inbox.lv
+Message-ID: <55754dcc56df3_5bc3fad9e5b0bcc65690@ubuntu.mail>
+Subject: test welcome email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55754dcc536de_5bc3fad9e5b0bcc6555d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55754dcc536de_5bc3fad9e5b0bcc6555d
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+#<User:0x007f5b3cae7768>
+----==_mimepart_55754dcc536de_5bc3fad9e5b0bcc6555d
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+	<head></head>
+		<body>
+		<h1>Hello!</h1>
+		<p>Welcome</p>
+	</body>
+</html>
+----==_mimepart_55754dcc536de_5bc3fad9e5b0bcc6555d--
+
+Completed 302 Found in 707ms (ActiveRecord: 527.9ms)
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+Processing by AlbumController#index as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = ? LIMIT 1  [["id", 14]]
+  Rendered album/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 118ms (Views: 114.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 192.168.221.11 at 2015-06-08 11:09:48 +0300
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 11:13:58 +0300
+Processing by AlbumController#index as HTML
+Redirected to http://192.168.221.10:3000/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (125.4ms)
+Completed 200 OK in 246ms (Views: 245.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 11:13:59 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 11:14:00 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 11:14:00 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 11:14:00 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 11:14:00 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 11:14:00 +0300
+
+
+Started POST "/login" for 192.168.221.11 at 2015-06-08 11:14:16 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KB9TGPtON6cIkxefSiNl4piWJZTK8apm/KZfV50LONk=", "session"=>{"email"=>"jpotalujeva@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`email` = 'jpotalujeva@gmail.com' LIMIT 1[0m
+Redirected to http://192.168.221.10:3000/
+Completed 302 Found in 88ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 11:14:16 +0300
+Processing by AlbumController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = ? LIMIT 1  [["id", 1]]
+  Rendered album/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 131ms (Views: 126.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.eot" for 192.168.221.11 at 2015-06-08 11:14:16 +0300
+
+
+Started DELETE "/logout" for 192.168.221.11 at 2015-06-08 11:51:26 +0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY="}
+Redirected to http://192.168.221.10:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 11:51:26 +0300
+Processing by AlbumController#index as HTML
+Redirected to http://192.168.221.10:3000/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 192.168.221.11 at 2015-06-08 11:51:26 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (127.3ms)
+Completed 200 OK in 257ms (Views: 256.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:26 +0300
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:27 +0300
+
+
+Started GET "/signup" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (123.6ms)
+Completed 200 OK in 249ms (Views: 243.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 11:51:28 +0300
+
+
+Started POST "/users" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY=", "user"=>{"first_name"=>"jekaterina", "last_name"=>"skorodihina", "email"=>"zenka45@inbox.lv", "password"=>"[FILTERED]"}, "commit"=>"Create an account"}
+  [1m[36mSQL (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `users` (`created_at`, `email`, `first_name`, `last_name`, `password_digest`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-06-08 08:53:27"], ["email", "zenka45@inbox.lv"], ["first_name", "jekaterina"], ["last_name", "skorodihina"], ["password_digest", "$2a$10$3wXVTSvWYMAUXWvq2Xb7D.hEeiI.rUEoHlsugCxpuzAVq2NjeY30G"], ["updated_at", "2015-06-08 08:53:27"]]
+  [1m[36m (14.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://192.168.221.10:3000/
+  Rendered user_mailer/welcome_user.html.erb (0.1ms)
+  Rendered user_mailer/welcome_user.text.erb (0.1ms)
+
+UserMailer#welcome_user: processed outbound mail in 18.3ms
+
+Sent mail to zenka45@inbox.lv (7.9ms)
+Date: Mon, 08 Jun 2015 11:53:27 +0300
+From: jpotalujeva@gmail.com
+To: zenka45@inbox.lv
+Message-ID: <557558074fa8d_5bc3fad9e03d0b46587b@ubuntu.mail>
+Subject: test welcome email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_557558074dd0e_5bc3fad9e03d0b465735";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_557558074dd0e_5bc3fad9e03d0b465735
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+#<User:0x007f5b3c015448>
+----==_mimepart_557558074dd0e_5bc3fad9e03d0b465735
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+	<head></head>
+		<body>
+		<h1>Hello!</h1>
+		<p>Welcome</p>
+	</body>
+</html>
+----==_mimepart_557558074dd0e_5bc3fad9e03d0b465735--
+
+Completed 302 Found in 147ms (ActiveRecord: 15.1ms)
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+Processing by AlbumController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = ? LIMIT 1  [["id", 15]]
+  Rendered album/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 127ms (Views: 121.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 192.168.221.11 at 2015-06-08 11:53:27 +0300
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 12:02:02 +0300
+Processing by AlbumController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 15]]
+  Rendered album/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 140ms (Views: 128.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 12:02:02 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:02 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:02 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:02 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:02 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:02 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:02 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:02 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:02 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:02 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:02 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:02 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:02 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:03 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:03 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:03 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:03 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:03 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:03 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:03 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:03 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:03 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:03 +0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 192.168.221.11 at 2015-06-08 12:02:03 +0300
+
+
+Started DELETE "/logout" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY="}
+Redirected to http://192.168.221.10:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+Processing by AlbumController#index as HTML
+Redirected to http://192.168.221.10:3000/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (119.1ms)
+Completed 200 OK in 242ms (Views: 241.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:04 +0300
+
+
+Started GET "/signup" for 192.168.221.11 at 2015-06-08 12:02:05 +0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (132.1ms)
+Completed 200 OK in 253ms (Views: 251.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:06 +0300
+
+
+Started POST "/users" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY=", "user"=>{"first_name"=>"mmm", "last_name"=>"mmm", "email"=>"jpotalujeva@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Create an account"}
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `users` (`created_at`, `email`, `first_name`, `last_name`, `password_digest`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-06-08 09:02:38"], ["email", "jpotalujeva@gmail.com"], ["first_name", "mmm"], ["last_name", "mmm"], ["password_digest", "$2a$10$6FFiiJzbhHYAixsh2tZl2OiTHgzUUvajxYqiWuUF52eIA2262glLS"], ["updated_at", "2015-06-08 09:02:38"]]
+  [1m[35m (3.3ms)[0m  COMMIT
+Redirected to http://192.168.221.10:3000/
+  Rendered user_mailer/welcome_user.html.erb (0.1ms)
+  Rendered user_mailer/welcome_user.text.erb (0.1ms)
+
+UserMailer#welcome_user: processed outbound mail in 15.0ms
+
+Sent mail to jpotalujeva@gmail.com (9.0ms)
+Date: Mon, 08 Jun 2015 12:02:38 +0300
+From: jevgenija.potalujeva@accenture.com
+To: jpotalujeva@gmail.com
+Message-ID: <55755a2e6cb2d_5bc29679e8660be@ubuntu.mail>
+Subject: test welcome email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55755a2e6ad57_5bc29679e865979";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55755a2e6ad57_5bc29679e865979
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+#<User:0x00000005267168>
+----==_mimepart_55755a2e6ad57_5bc29679e865979
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+	<head></head>
+		<body>
+		<h1>Hello!</h1>
+		<p>Welcome</p>
+	</body>
+</html>
+----==_mimepart_55755a2e6ad57_5bc29679e865979--
+
+Completed 302 Found in 138ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+Processing by AlbumController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 16]]
+  Rendered album/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 127ms (Views: 123.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 192.168.221.11 at 2015-06-08 12:02:38 +0300
+
+
+Started DELETE "/logout" for 192.168.221.11 at 2015-06-08 14:04:16 +0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7wd6xsukM/77LiadgJf7ifqFUluNj2VIXbI4RZ8p1sY="}
+Redirected to http://192.168.221.10:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+Processing by AlbumController#index as HTML
+Redirected to http://192.168.221.10:3000/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (118.0ms)
+Completed 200 OK in 240ms (Views: 239.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:17 +0300
+
+
+Started GET "/signup" for 192.168.221.11 at 2015-06-08 14:04:22 +0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (135.9ms)
+Completed 200 OK in 257ms (Views: 255.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 14:04:22 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:22 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:22 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:22 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:22 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:22 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:22 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:23 +0300
+
+
+Started GET "/login" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (132.6ms)
+Completed 200 OK in 250ms (Views: 249.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 14:04:52 +0300
+
+
+Started GET "/signup" for 192.168.221.11 at 2015-06-08 14:05:02 +0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (128.9ms)
+Completed 200 OK in 251ms (Views: 249.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/application.css?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/album.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/contacts.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/mail.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/users.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
+
+
+Started GET "/assets/application.js?body=1" for 192.168.221.11 at 2015-06-08 14:05:03 +0300
