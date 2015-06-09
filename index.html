@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	</head>
+	<body>
+		<form>
+			<label>Price</label>
+			<input name="price" id="price-id" value="27">
+			<br>
+			<label>Quantity</label>
+			<input name="quant" id="quant-id" value="1">
+			<br>
+			<label>Total</label>
+			<input name="total" id="total-id" value="">
+		</form>
+		<script>
+			$(function(){
+				function calculate(){
+					var price = parseInt($('#price-id').val()),
+						quant = parseInt($('#quant-id').val()),
+						sum = 0;
+					sum = price * quant * 2;
+					$('#total-id').val(sum);
+				}
+
+				$('#price-id, #quant-id').bind('keyup', calculate);
+				calculate();
+			});
+		</script>
+	</body>
+</html>
