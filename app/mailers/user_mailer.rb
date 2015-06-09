@@ -1,9 +1,9 @@
 class UserMailer < ActionMailer::Base
-  default from: "jevgenija.potalujeva@accenture.com"
+  default from: "your@domain.com"
 
   def welcome_user(user)
   	@user = user
-  	@url = "http://www.accenture.com"
+  	@url = "http://www.domain.com"
   	mail(to: @user.email, subject: 'test welcome email')
   end
 
