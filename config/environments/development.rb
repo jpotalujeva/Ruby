@@ -17,13 +17,13 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    address: "smtp.accenture.com",
+    address: "smtp.domain.com",
     port: "587",
-    domain: "accenture.com",
+    domain: "domain.com",
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: "jevgenija.potalujeva",
-    password: "jKm-vHx9"
+    user_name: "username",
+    password: "password"
   }
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
